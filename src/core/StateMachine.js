@@ -119,6 +119,8 @@ export default class StateMachine {
       invokeEach(this.config.global.stateChangeHooks, this.currentState, state, context);
     }
 
+    this.currentState = state;
+
     try {
       this.startAsyncActions(state, context);
       this.startTimers(state);
@@ -128,8 +130,6 @@ export default class StateMachine {
       this.cancelAsyncActions();
       throw error;
     }
-
-    this.currentState = state;
   }
 
   exitState(context) {
