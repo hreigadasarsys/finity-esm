@@ -1,5 +1,5 @@
 {
-  "name": "finity",
+  "name": "finity-esm",
   "version": "0.5.4",
   "description": "A finite state machine library for Node.js and the browser with a friendly configuration DSL",
   "keywords": [
