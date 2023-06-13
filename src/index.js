@@ -1,14 +1,14 @@
-import StateMachineConfigurator from './configuration/index.js';
-import HierarchicalStateMachine from './core/HierarchicalStateMachine.js';
+import { StateMachineConfigurator } from "./configuration/index.js";
+import HierarchicalStateMachine from "./core/HierarchicalStateMachine.js";
 
 const Finity = {
-  configure() {
-    return new StateMachineConfigurator();
-  },
+	configure() {
+		return new StateMachineConfigurator();
+	},
 
-  start(config) {
-    return HierarchicalStateMachine.start(config);
-  },
+	start(config) {
+		return HierarchicalStateMachine.start(config);
+	},
 };
 
 export default Finity;
