@@ -1,4 +1,4 @@
-import TriggerConfigurator from './TriggerConfigurator';
+import TriggerConfigurator from './TriggerConfigurator.js';
 
 export default class TrimerConfigurator extends TriggerConfigurator {
   constructor(parent, timeout) {

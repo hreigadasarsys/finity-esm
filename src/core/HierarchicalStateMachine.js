@@ -1,5 +1,5 @@
-import StateMachine from './StateMachine';
-import TaskScheduler from './TaskScheduler';
+import StateMachine from './StateMachine.js';
+import TaskScheduler from './TaskScheduler.js';
 
 export default class HierarchicalStateMachine {
   constructor(rootStateMachine, currentStateMachine, taskScheduler) {

@@ -1,7 +1,7 @@
-import BaseConfigurator from './BaseConfigurator';
-import TriggerConfigurator from './TriggerConfigurator';
-import TimerConfigurator from './TimerConfigurator';
-import AsyncActionConfigurator from './AsyncActionConfigurator';
+import BaseConfigurator from './BaseConfigurator.js';
+import TriggerConfigurator from './TriggerConfigurator.js';
+import TimerConfigurator from './TimerConfigurator.js';
+import AsyncActionConfigurator from './AsyncActionConfigurator.js';
 
 export default class StateConfigurator extends BaseConfigurator {
   constructor(parent) {

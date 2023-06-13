@@ -1,4 +1,4 @@
-import mapValues from '../utils/mapValues';
+import mapValues from '../utils/mapValues.js';
 
 export default class BaseConfigurator {
   constructor(parent) {

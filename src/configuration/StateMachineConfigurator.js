@@ -1,7 +1,7 @@
-import BaseConfigurator from './BaseConfigurator';
-import GlobalConfigurator from './GlobalConfigurator';
-import StateConfigurator from './StateConfigurator';
-import HierarchicalStateMachine from '../core/HierarchicalStateMachine';
+import BaseConfigurator from './BaseConfigurator.js';
+import GlobalConfigurator from './GlobalConfigurator.js';
+import StateConfigurator from './StateConfigurator.js';
+import HierarchicalStateMachine from '../core/HierarchicalStateMachine.js';
 
 export default class StateMachineConfigurator extends BaseConfigurator {
   constructor() {

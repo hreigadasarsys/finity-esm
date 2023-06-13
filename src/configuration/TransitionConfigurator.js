@@ -1,4 +1,4 @@
-import BaseConfigurator from './BaseConfigurator';
+import BaseConfigurator from './BaseConfigurator.js';
 
 export default class TransitionConfigurator extends BaseConfigurator {
   constructor(parent, targetState, options = {}) {

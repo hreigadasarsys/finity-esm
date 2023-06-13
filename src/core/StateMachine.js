@@ -1,5 +1,5 @@
-import invokeEach from '../utils/invokeEach';
-import merge from '../utils/merge';
+import invokeEach from '../utils/invokeEach.js';
+import merge from '../utils/merge.js';
 
 const noop = () => {};
 
@@ -21,8 +21,8 @@ export default class StateMachine {
     this.submachines = Object.create(null);
     this.timerIDs = null;
     this.asyncActionCancelers = null;
-    this.handleAsyncActionComplete = ::this.handleAsyncActionComplete;
-    this.handleTimeout = ::this.handleTimeout;
+    this.handleAsyncActionComplete = this.handleAsyncActionComplete.bind(this);
+    this.handleTimeout = this.handleTimeout.bind(this);
   }
 
   getCurrentState() {

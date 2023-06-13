@@ -1,5 +1,5 @@
-import BaseConfigurator from './BaseConfigurator';
-import TriggerConfigurator from './TriggerConfigurator';
+import BaseConfigurator from './BaseConfigurator.js';
+import TriggerConfigurator from './TriggerConfigurator.js';
 
 export default class AsyncActionConfigurator extends BaseConfigurator {
   constructor(parent, action) {

@@ -1,4 +1,4 @@
-import BaseConfigurator from './BaseConfigurator';
+import BaseConfigurator from './BaseConfigurator.js';
 
 export default class GlobalConfigurator extends BaseConfigurator {
   constructor(parent) {

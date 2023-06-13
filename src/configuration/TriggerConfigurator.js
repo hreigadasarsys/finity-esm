@@ -1,5 +1,5 @@
-import BaseConfigurator from './BaseConfigurator';
-import TransitionConfigurator from './TransitionConfigurator';
+import BaseConfigurator from './BaseConfigurator.js';
+import TransitionConfigurator from './TransitionConfigurator.js';
 
 export default class TriggerConfigurator extends BaseConfigurator {
   constructor(parent) {
